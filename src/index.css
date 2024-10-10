@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+a {
+  all: unset;
+  color: inherit;
+}
+
+a:active,
+a:hover {
+  cursor: pointer;
+}
+
+a:focus {
+  outline: 2px solid teal;
+}
